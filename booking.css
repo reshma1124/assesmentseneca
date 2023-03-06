@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding:0;
+    /* background-image: url(./images/orangebc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.bc-pet{
+    /* margin: 20px; */
+    /* padding: 40px; */
+}
+/* 
+.main-page{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/pet-bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: 10px;
+    background-color: white;
+    border-radius: 40px;
+    padding-top:15px;
+} */
+
+
+.nav-header{
+    /* background-color:rgb(176, 240, 240); */
+    margin: 20px 5% 0px 5% ;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    
+}
+
+.logo-flex{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-flex i{
+    background-color:orangered;
+    color: white;
+    font-size:3em;
+    width: 50px;
+    height: 50px;
+    padding:8px;
+    border-radius: 10px;
+}
+
+.logo-flex span{
+    font-size: 0.7em;
+    color:orangered;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li{
+    margin-right:35px;
+
+}
+
+.nav-links ul a{
+    text-decoration: none;
+    color:black;
+    font-size:28px;
+}
+
+.nav-links ul a:hover{
+    background-color: red;
+    color: white;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.booking-pet{
+    background-image: url(./images/booking-pet.jpg);
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:60px; 
+}
+
+.booking-pet button{
+    font-size: 30px;
+    border-radius: 150px;
+    padding:30px;
+    width:500px;
+    background-color:black;
+    color: white;
+}
+
+.booking-pet button:hover{
+    background-color: gold;
+    color: black;
+}
+
+.pet-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.grayclrele{
+    color: gray;
+    font-size: 20px;
+}
+
+.contentflex1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentflex1  li{
+    margin-left: 20px;
+}
+
+.contentflex1 p{
+    margin-left: 60px;
+}
+
+.contentflex1 ul li a{
+    color: black;
+    font-size: 30px;
+}
+
+.f-pet i{
+    color: blue;
+} 
+
+.i-pet i{
+    color:rgb(228, 64, 95);
+}
+
+.w-pet i{
+    color: rgb(19, 162, 19);
+}
+.T-pet i{
+   color:rgb(4, 182, 252);
+}
+
+.pet-footer-form i , p{
+    color: black;
+    font-size: 30px;
+}
+
+.contentflex3 input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black; 
+    width: 400px; 
+    font-size: 20px;
+} 
+
+.contentflex3 input:focus{
+    outline: none;
+}
+
+.contentflex3 button{
+    background-color:red;
+    color:white;
+    padding: 15px;
+    width: 120px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.contentflex3 button:hover{
+    background-color: green;
+    border: 1px solid green;
+}
+
+.contentflex3 {
+    margin: 0px 50px 0px 0px;
+}
+
+
+
+

@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding:0;
+    background-size: cover;
+}
+
+.nav-header{
+    /* background-color:rgb(176, 240, 240); */
+    margin: 20px 5% 0px 5% ;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color:white;
+}
+
+.logo-flex{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-flex i{
+    background-color:orangered;
+    color: white;
+    font-size:3em;
+    width: 50px;
+    height: 50px;
+    padding:8px;
+    border-radius: 10px;
+}
+
+.logo-flex span{
+    font-size: 0.7em;
+    color:orangered;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li{
+    margin-right:35px;
+
+}
+
+.nav-links ul a{
+    text-decoration: none;
+    color:black;
+    font-size:28px;
+}
+
+.nav-links ul a:hover{
+    background-color: red;
+    color: white;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.container-food{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:"f1 f2 f3"
+                        "f4 f5 f6";
+    row-gap: 30px;
+    column-gap: 30px;
+
+}
+
+.item1-food{
+    /* background-color: blue; */
+    grid-area: f1;
+}
+
+.item2-food{
+    /* background-color: blueviolet; */
+    grid-area: f2;
+}
+
+.item3-food{
+    /* background-color: burlywood; */
+    grid-area: f3;
+}
+
+.item4-food{
+    /* background-color: rgb(156, 228, 228); */
+    grid-area: f4;
+}
+
+.item5-food{
+    /* background-color: aqua; */
+    grid-area: f5;
+}
+
+.item6-food{
+    /* background-color: aqua; */
+    grid-area: f6;
+}
+.container-food img{
+    margin-left:30px;
+    width: 400px;
+    height:500 ;
+   
+}
+
+.container-food h6{
+    font-size:20px;
+    width:300px;
+    margin-top: 0px;
+    margin-left:85px;
+}
+.container-food p{
+    margin-top:-40px;
+    margin-left:85px;
+    font-size:25px;
+    color: rgb(60, 208, 60);
+}
+
+.container-food button{
+    margin-top: -10px;
+    font-size: 30px;
+    margin-left:80px;
+    padding: 10px;
+    background-color: rgb(255, 88, 88);
+    border: none;
+    border-radius: 20px;
+    /* border-radius: px; */
+}
+
+.container-food button:hover{
+    background-color: rgb(28, 160, 28);
+    cursor: pointer;
+}
+
+
+
+.pet-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.grayclrele{
+    color: gray;
+    font-size: 20px;
+}
+
+.contentflex1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentflex1  li{
+    margin-left: 20px;
+}
+
+.contentflex1 p{
+    margin-left: 60px;
+}
+
+.contentflex1 ul li a{
+    color: black;
+    font-size: 30px;
+}
+
+.f-pet i{
+    color: blue;
+} 
+
+.i-pet i{
+    color:rgb(228, 64, 95);
+}
+
+.w-pet i{
+    color: rgb(19, 162, 19);
+}
+.T-pet i{
+   color:rgb(4, 182, 252);
+}
+
+.pet-footer-form i , p{
+    color: black;
+    font-size: 30px;
+}
+
+.contentflex3 input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black; 
+    width: 400px; 
+    font-size: 20px;
+} 
+
+.contentflex3 input:focus{
+    outline: none;
+}
+
+.contentflex3 button{
+    background-color:red;
+    color:white;
+    padding: 15px;
+    width: 120px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.contentflex3 button:hover{
+    background-color: green;
+    border: 1px solid green;
+}
+
+.contentflex3 {
+    margin: 0px 50px 0px 0px;
+}
+
+
+
+
